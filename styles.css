@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+
+.main {
+    display: inline-block;
+    margin: 50px;
+}
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+}
+.intro {
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 10px;
+    margin-bottom: 40px;
+    background-color: #808080;
+}
+
+.recipe-list {
+    padding: 10px;
+    font-size:25px;
+}
+
+/**.recipe-desc {
+    margin: 50px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}**/
+.recipes {
+    list-style-type: none;
+}
+
+.recipe-desc {
+    margin: 0 auto 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.recipe-desc:nth-child(1) {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://www.allrecipes.com/thmb/66-AdWiWOvHPyyKabWAfNm6i3qQ=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/233446-lo-mein-noodles-dmfs-4x3-1356-1493-64be4dff0a84483b8e7716d6020fb1d5.jpg');
+}
+
+.recipe-desc:nth-child(2) {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://www.allrecipes.com/thmb/ksxaVGxmcXF4WRCTVX5t16UEJfc=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8965-broccoli-chicken-casserole-i-DDMFS-4x3-7c100071a13c4226bae46ea4afcf756b.jpg');
+}
+
+.recipe-desc:nth-child(3) {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://www.allrecipes.com/thmb/pnihZNb2insTUqOmpYO0F4neoLg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-228515-simple-creme-brulee-dessert-dmfs-4x3-821623e7a86548eeb89370ac23d5f251.jpg');
+}
+
+.recipe-title {
+    background-color: transparent;
+    color: #f0f0f0;
+    
+}
